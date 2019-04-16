@@ -1,5 +1,5 @@
 
-** golang 条件判断 **
+**golang 条件判断**
 
 - if来申明
 - if 条件判断中不需要加()
@@ -10,7 +10,7 @@
     }
 ```
 
-** 单一if判断 **
+**单一if判断**
 
 
 ```
@@ -21,7 +21,7 @@
 	fmt.Printf("a = %d\n",a)
 ```
 
-** if else判断 **
+**if else判断**
 
 ```
     var a int = 10
@@ -32,7 +32,7 @@
     }
 ```
 
-** if else if  else判断 **
+**if else if  else判断**
 ```
     a := 6
 	if a<10 && a>5 {
@@ -44,12 +44,12 @@
 	}
 ```
 
-** golang switch **
+**golang switch**
 
 - switch 语句用于基于不同条件执行不同动作
 - 每一个 case 分支都是唯一的，从上至下逐一测试，直到匹配为止
 
-** 语法 **
+**语法**
 
 ```
 switch var1 {
@@ -75,8 +75,11 @@ switch var1 {
     	default:
     		fmt.Println("Success!")
     }
+
 ```
+
 **计算器**
+
 ```
     func switchCalculator(a,b int,op string) int {
     	var result int
@@ -92,7 +95,7 @@ switch var1 {
     		result = a / b
     	default:
     		panic("unsupported operator:" + op)
-    
+
     	}
     	return result
     }

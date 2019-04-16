@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 //在函数外不能使用:=，只能使用var开头定义变量
-
 var (
 	username = "xiaobai"
 	age      = 5

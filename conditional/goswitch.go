@@ -42,7 +42,7 @@ func main() {
 	switchSelect()
 
 	//计算器
-	returnResult := switchCalculator(2, 3, "+")
+	returnResult := switchCalculator(2, 3, "*")
 	fmt.Println(returnResult)
 
 }
